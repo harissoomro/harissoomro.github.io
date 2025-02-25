@@ -78,7 +78,7 @@ function pause(){
 
 function update(){
     
-    timeLeft -= 1000;
+    timeLeft -= 10;
     if (timeLeft <= 0) {
         clearInterval(clock);  
         timeLeft = 0;  
